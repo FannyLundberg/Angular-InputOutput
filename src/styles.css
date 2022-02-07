@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/tree.jpg);
+    size: cover;
+    font-family: 'Lora', serif;
+}
+
+header {
+    background-color: rgba(220, 253, 223, 0.711);
+    height: 15vh;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+div {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    span {
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        display: block;
+        background-color: black;
+        margin-top: 6px;
+    }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+}
+
+aside {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: rgba(220, 253, 223, 0.711);
+    height: 5vh;
+    position: relative;
+    bottom: 0;
+}

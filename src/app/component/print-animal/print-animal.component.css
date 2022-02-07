@@ -1,0 +1,16 @@
+section {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(220, 253, 223, 0.511);
+    border-radius: 10px;
+    margin: 2%; 
+}
+
+button {
+    background-color: rgba(116, 158, 120, 0.822);
+    color: white;
+    font-size: 1rem;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 5px;
+}
