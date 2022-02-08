@@ -2,6 +2,7 @@
     <h2> {{animal.type}} </h2>
     <h2> {{animal.name}} </h2>
     <h3> {{animal.age}} år </h3>
-    <h3> Vegeterian? {{animal.vegeterian}} </h3>
+    <h3 *ngIf="animal.vegeterian">Vegetarian</h3>
+    <h3 *ngIf="!animal.vegeterian">Köttätare</h3>
     <button (click)="feedAnimal()">Mata {{animal.name}} 🍋</button>
 </section>
